@@ -21,7 +21,7 @@ AppView = Backbone.View.extend({
 		// Pass it a reference to this view to create a connection between the two
 	},
 	events:{
-		"click #add-friend":,  "showPrompt",
+		"click #add-friend": "showPrompt",
 	},
 	showPrompt: function(){
 		var friend_name = prompt("Who is your friend?");
